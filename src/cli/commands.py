@@ -281,5 +281,39 @@ def pipeline(limit: int | None):
     ctx.invoke(stats)
 
 
+@cli.command()
+@click.option("--interval-hours", "-i", default=None, type=int, help="Hours between pipeline runs")
+@click.option("--run-now/--no-run-now", default=True, help="Run pipeline immediately on start")
+def worker(interval_hours: int | None, run_now: bool):
+    """Run automated background worker that periodically scrapes and enriches listings."""
+    from apscheduler.schedulers.blocking import BlockingScheduler
+    
+    settings = get_settings()
+    hours = interval_hours or settings.scrape_interval_hours
+    
+    console.print(f"[bold green]Starting StajBul Autonomous Worker (Interval: {hours} hours)...[/bold green]")
+    
+    ctx = click.get_current_context()
+    
+    def job():
+        console.print(f"\n[bold cyan]=== Worker Cycle Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===[/bold cyan]")
+        try:
+            ctx.invoke(pipeline)
+        except Exception as e:
+            console.print(f"[bold red]Pipeline cycle error: {e}[/bold red]")
+        console.print(f"[bold cyan]=== Next run scheduled in {hours} hours ===[/bold cyan]\n")
+    
+    if run_now:
+        job()
+    
+    scheduler = BlockingScheduler()
+    scheduler.add_job(job, "interval", hours=hours)
+    
+    try:
+        scheduler.start()
+    except (KeyboardInterrupt, SystemExit):
+        console.print("[bold yellow]Worker stopped gracefully.[/bold yellow]")
+
+
 if __name__ == "__main__":
     cli()
