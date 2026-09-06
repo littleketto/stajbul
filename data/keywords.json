@@ -1,0 +1,160 @@
+{
+  "search_queries": [
+    {
+      "id": "tr_stajyer_turkey",
+      "keywords": "stajyer",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 1,
+      "description": "Turkish internship keyword, nationwide, internship level"
+    },
+    {
+      "id": "en_intern_turkey",
+      "keywords": "intern",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 1,
+      "description": "English internship keyword, nationwide, internship level"
+    },
+    {
+      "id": "tr_stajyer_entry",
+      "keywords": "stajyer",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "2"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 2,
+      "description": "Catch misclassified internships listed as entry-level"
+    },
+    {
+      "id": "en_intern_entry",
+      "keywords": "intern",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "2"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 2,
+      "description": "Catch misclassified English internships as entry-level"
+    },
+    {
+      "id": "tr_staj_turkey",
+      "keywords": "staj",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 2,
+      "description": "Alternative Turkish keyword 'staj'"
+    },
+    {
+      "id": "tr_aday_muhendis",
+      "keywords": "aday mühendis",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1",
+        "2"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 3,
+      "description": "Candidate engineer programs (defense, automotive)"
+    },
+    {
+      "id": "tr_genc_yetenek",
+      "keywords": "genç yetenek",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1",
+        "2"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 3,
+      "description": "Young talent / MT programs"
+    },
+    {
+      "id": "tr_uzun_donem",
+      "keywords": "uzun dönem stajyer",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1",
+        "2"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 3,
+      "description": "Long-term internship keyword"
+    },
+    {
+      "id": "en_internship_turkey",
+      "keywords": "internship",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 2,
+      "description": "English 'internship' keyword for multinational companies"
+    },
+    {
+      "id": "en_trainee_turkey",
+      "keywords": "trainee",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1",
+        "2"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 3,
+      "description": "Trainee programs (often MT/graduate programs)"
+    },
+    {
+      "id": "tr_yaz_staji",
+      "keywords": "yaz stajı",
+      "geo_id": "102105699",
+      "experience_levels": [
+        "1"
+      ],
+      "time_range": "r86400",
+      "sort": "DD",
+      "priority": 3,
+      "description": "Summer internship specific keyword"
+    }
+  ],
+  "negative_keywords": [
+    "Senior",
+    "Lead",
+    "Director",
+    "Head of",
+    "Manager",
+    "Stajyer Avukat",
+    "Kıdemli",
+    "Müdür"
+  ],
+  "title_must_contain_any": [
+    "stajyer",
+    "staj",
+    "intern",
+    "trainee",
+    "aday mühendis",
+    "genç yetenek",
+    "working student",
+    "öğrenci"
+  ]
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "İstanbul",
+    "geo_id": "106972049",
+    "share_pct": 60,
+    "key_sectors": [
+      "Finans",
+      "Teknoloji",
+      "Bankacılık",
+      "FMCG"
+    ]
+  },
+  {
+    "name": "Ankara",
+    "geo_id": "104037560",
+    "share_pct": 15,
+    "key_sectors": [
+      "Savunma",
+      "Kamu",
+      "Yazılım",
+      "Biyomedikal"
+    ]
+  },
+  {
+    "name": "İzmir",
+    "geo_id": "104251213",
+    "share_pct": 7,
+    "key_sectors": [
+      "Enerji",
+      "Denizcilik",
+      "Yazılım",
+      "Gıda"
+    ]
+  },
+  {
+    "name": "Kocaeli",
+    "geo_id": "100989396",
+    "share_pct": 5,
+    "key_sectors": [
+      "Otomotiv",
+      "Kimya",
+      "IT"
+    ]
+  },
+  {
+    "name": "Bursa",
+    "geo_id": "104278788",
+    "share_pct": 4,
+    "key_sectors": [
+      "Otomotiv",
+      "Makine",
+      "Tekstil"
+    ]
+  },
+  {
+    "name": "Antalya",
+    "geo_id": "100731822",
+    "share_pct": 2,
+    "key_sectors": [
+      "Turizm",
+      "Tarım Teknolojisi"
+    ]
+  },
+  {
+    "name": "Eskişehir",
+    "geo_id": "101867709",
+    "share_pct": 2,
+    "key_sectors": [
+      "Havacılık",
+      "Raylı Sistemler"
+    ]
+  },
+  {
+    "name": "Gaziantep",
+    "geo_id": "107893201",
+    "share_pct": 1,
+    "key_sectors": [
+      "İhracat",
+      "Tekstil",
+      "Gıda"
+    ]
+  },
+  {
+    "name": "Konya",
+    "geo_id": "106303650",
+    "share_pct": 1,
+    "key_sectors": [
+      "Ağır Sanayi",
+      "Tarım Teknolojisi"
+    ]
+  },
+  {
+    "name": "Adana",
+    "geo_id": "102737819",
+    "share_pct": 1,
+    "key_sectors": [
+      "Tarım",
+      "Lojistik",
+      "Kimya"
+    ]
+  },
+  {
+    "name": "Manisa",
+    "geo_id": "104060723",
+    "share_pct": 1,
+    "key_sectors": [
+      "Elektronik",
+      "Beyaz Eşya"
+    ]
+  },
+  {
+    "name": "Kayseri",
+    "geo_id": "103098798",
+    "share_pct": 1,
+    "key_sectors": [
+      "Mobilya",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Sakarya",
+    "geo_id": "105049137",
+    "share_pct": 1,
+    "key_sectors": [
+      "Otomotiv",
+      "Savunma"
+    ]
+  },
+  {
+    "name": "Denizli",
+    "geo_id": "104301211",
+    "share_pct": 1,
+    "key_sectors": [
+      "Tekstil",
+      "İhracat"
+    ]
+  },
+  {
+    "name": "Mersin",
+    "geo_id": "103173665",
+    "share_pct": 1,
+    "key_sectors": [
+      "Liman Lojistik",
+      "Petrokimya"
+    ]
+  }
+]

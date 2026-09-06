@@ -1,0 +1,236 @@
+[
+  {
+    "name_tr": "Bilgisayar Mühendisliği",
+    "name_en": "Computer Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["CENG", "CE", "CompEng", "Bilgisayar Müh.", "Computer Eng."]
+  },
+  {
+    "name_tr": "Yazılım Mühendisliği",
+    "name_en": "Software Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["SE", "SWE", "Yazılım Müh.", "Software Eng."]
+  },
+  {
+    "name_tr": "Elektrik-Elektronik Mühendisliği",
+    "name_en": "Electrical and Electronics Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["EEE", "EEM", "Elektrik Elektronik Müh."]
+  },
+  {
+    "name_tr": "Endüstri Mühendisliği",
+    "name_en": "Industrial Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["IE", "EM", "Endüstri Müh."]
+  },
+  {
+    "name_tr": "Makine Mühendisliği",
+    "name_en": "Mechanical Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["ME", "MM", "Makine Müh."]
+  },
+  {
+    "name_tr": "İnşaat Mühendisliği",
+    "name_en": "Civil Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["CE", "İM", "İnşaat Müh."]
+  },
+  {
+    "name_tr": "Kimya Mühendisliği",
+    "name_en": "Chemical Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["ChemE", "KM", "Kimya Müh."]
+  },
+  {
+    "name_tr": "Biyomedikal Mühendisliği",
+    "name_en": "Biomedical Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["BME", "Biyomedikal Müh."]
+  },
+  {
+    "name_tr": "Mekatronik Mühendisliği",
+    "name_en": "Mechatronics Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["MEK", "Mekatronik Müh."]
+  },
+  {
+    "name_tr": "Havacılık ve Uzay Mühendisliği",
+    "name_en": "Aerospace Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["AERO", "Uçak Müh.", "Havacılık Müh."]
+  },
+  {
+    "name_tr": "Yapay Zeka ve Veri Mühendisliği",
+    "name_en": "Artificial Intelligence and Data Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["AI", "AID", "Yapay Zeka Müh.", "Veri Müh."]
+  },
+  {
+    "name_tr": "Çevre Mühendisliği",
+    "name_en": "Environmental Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["EnvE", "Çevre Müh."]
+  },
+  {
+    "name_tr": "Otomotiv Mühendisliği",
+    "name_en": "Automotive Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["AutoE", "Otomotiv Müh."]
+  },
+  {
+    "name_tr": "Metalurji ve Malzeme Mühendisliği",
+    "name_en": "Metallurgical and Materials Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["MME", "Malzeme Müh."]
+  },
+  {
+    "name_tr": "Gıda Mühendisliği",
+    "name_en": "Food Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["Gıda Müh.", "Food Eng."]
+  },
+  {
+    "name_tr": "İşletme Mühendisliği",
+    "name_en": "Management Engineering",
+    "category": "MUHENDISLIK",
+    "aliases": ["İşletme Müh.", "Management Eng."]
+  },
+  {
+    "name_tr": "İşletme",
+    "name_en": "Business Administration",
+    "category": "IIBF_ISLETME",
+    "aliases": ["BA", "Bus", "İşletme Bölümü"]
+  },
+  {
+    "name_tr": "İktisat",
+    "name_en": "Economics",
+    "category": "IIBF_ISLETME",
+    "aliases": ["ECON", "Ekonomi"]
+  },
+  {
+    "name_tr": "Yönetim Bilişim Sistemleri",
+    "name_en": "Management Information Systems",
+    "category": "IIBF_ISLETME",
+    "aliases": ["YBS", "MIS", "Bilişim Sistemleri"]
+  },
+  {
+    "name_tr": "Uluslararası İlişkiler",
+    "name_en": "International Relations",
+    "category": "IIBF_ISLETME",
+    "aliases": ["IR", "Uİ"]
+  },
+  {
+    "name_tr": "Siyaset Bilimi ve Kamu Yönetimi",
+    "name_en": "Political Science and Public Administration",
+    "category": "IIBF_ISLETME",
+    "aliases": ["SBKY", "Kamu Yönetimi"]
+  },
+  {
+    "name_tr": "Uluslararası Ticaret ve Finansman",
+    "name_en": "International Trade and Finance",
+    "category": "IIBF_ISLETME",
+    "aliases": ["UTİ", "UTF", "Uluslararası Ticaret"]
+  },
+  {
+    "name_tr": "Maliye",
+    "name_en": "Public Finance",
+    "category": "IIBF_ISLETME",
+    "aliases": ["Maliye Bölümü"]
+  },
+  {
+    "name_tr": "Lojistik Yönetimi",
+    "name_en": "Logistics Management",
+    "category": "IIBF_ISLETME",
+    "aliases": ["Lojistik"]
+  },
+  {
+    "name_tr": "Matematik",
+    "name_en": "Mathematics",
+    "category": "FEN_BILIMLERI",
+    "aliases": ["MATH", "Mat"]
+  },
+  {
+    "name_tr": "İstatistik",
+    "name_en": "Statistics",
+    "category": "FEN_BILIMLERI",
+    "aliases": ["STAT", "İstat"]
+  },
+  {
+    "name_tr": "Fizik",
+    "name_en": "Physics",
+    "category": "FEN_BILIMLERI",
+    "aliases": ["PHYS", "Fiz"]
+  },
+  {
+    "name_tr": "Kimya",
+    "name_en": "Chemistry",
+    "category": "FEN_BILIMLERI",
+    "aliases": ["CHEM", "Kim"]
+  },
+  {
+    "name_tr": "Moleküler Biyoloji ve Genetik",
+    "name_en": "Molecular Biology and Genetics",
+    "category": "FEN_BILIMLERI",
+    "aliases": ["MBG", "Genetik"]
+  },
+  {
+    "name_tr": "Görsel İletişim Tasarımı",
+    "name_en": "Visual Communication Design",
+    "category": "TASARIM_MEDYA",
+    "aliases": ["VCD", "Görsel İletişim"]
+  },
+  {
+    "name_tr": "Grafik Tasarımı",
+    "name_en": "Graphic Design",
+    "category": "TASARIM_MEDYA",
+    "aliases": ["Grafik Tasarım"]
+  },
+  {
+    "name_tr": "Halkla İlişkiler ve Tanıtım",
+    "name_en": "Public Relations and Advertising",
+    "category": "TASARIM_MEDYA",
+    "aliases": ["PR", "HİT", "Reklamcılık"]
+  },
+  {
+    "name_tr": "Yeni Medya ve İletişim",
+    "name_en": "New Media and Communication",
+    "category": "TASARIM_MEDYA",
+    "aliases": ["Yeni Medya"]
+  },
+  {
+    "name_tr": "Mimarlık",
+    "name_en": "Architecture",
+    "category": "TASARIM_MEDYA",
+    "aliases": ["ARCH"]
+  },
+  {
+    "name_tr": "İç Mimarlık ve Çevre Tasarımı",
+    "name_en": "Interior Architecture and Environmental Design",
+    "category": "TASARIM_MEDYA",
+    "aliases": ["İç Mimarlık"]
+  },
+  {
+    "name_tr": "Endüstriyel Tasarım",
+    "name_en": "Industrial Design",
+    "category": "TASARIM_MEDYA",
+    "aliases": ["ID", "Endüstri Ürünleri Tasarımı"]
+  },
+  {
+    "name_tr": "Psikoloji",
+    "name_en": "Psychology",
+    "category": "SOSYAL_BILIMLER",
+    "aliases": ["PSY"]
+  },
+  {
+    "name_tr": "Sosyoloji",
+    "name_en": "Sociology",
+    "category": "SOSYAL_BILIMLER",
+    "aliases": ["SOC"]
+  },
+  {
+    "name_tr": "Hukuk",
+    "name_en": "Law",
+    "category": "HUKUK",
+    "aliases": ["Hukuk Fakültesi", "LL.B."]
+  }
+]
