@@ -141,6 +141,7 @@ def scrape(limit: int | None):
                     description_text=detail.description_text,
                     description_html=detail.description_html,
                 )
+                session.commit()
                 fetched += 1
     
     console.print(f"  [green]✓ {fetched} job details fetched[/green]")
@@ -213,11 +214,13 @@ def enrich(limit: int):
                     model_used=metadata.get("model_used", "unknown"),
                     token_count=metadata.get("token_count"),
                 )
+                session.commit()  # Immediately commit so frontend sees it in real-time
                 success += 1
                 if metadata.get("token_count"):
                     total_tokens += metadata["token_count"]
             else:
                 repo.mark_failed(listing.id, metadata.get("error", "Unknown error"))
+                session.commit()
                 failed += 1
             
             # Rate limit pacing for free tier (5 RPM)
