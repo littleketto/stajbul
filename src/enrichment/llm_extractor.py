@@ -1,7 +1,6 @@
-"""LLM-based structured data extraction using Google Gemini."""
-
 import json
 import logging
+import time
 from typing import Any
 
 from google import genai
@@ -129,7 +128,9 @@ class LLMExtractor:
                 return result, metadata
             
             if attempt < max_retries:
-                logger.info(f"Retrying extraction (attempt {attempt + 2}/{max_retries + 1})")
+                backoff = 15.0 * (attempt + 1)
+                logger.info(f"Waiting {backoff:.0f}s before retry (attempt {attempt + 2}/{max_retries + 1})")
+                time.sleep(backoff)
         
         logger.error(f"All {max_retries + 1} extraction attempts failed for '{title}'")
         return None, last_metadata
