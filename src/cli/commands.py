@@ -2,8 +2,17 @@
 
 import logging
 import sys
+import time
 import uuid
 from datetime import datetime
+
+# Configure Windows console UTF-8 output
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
 
 import click
 from rich.console import Console
@@ -210,6 +219,10 @@ def enrich(limit: int):
             else:
                 repo.mark_failed(listing.id, metadata.get("error", "Unknown error"))
                 failed += 1
+            
+            # Rate limit pacing for free tier (5 RPM)
+            if i < len(scraped_listings) - 1:
+                time.sleep(12)
         
         console.print(f"\n  [green]✓ Enriched: {success}[/green]")
         console.print(f"  [red]✗ Failed: {failed}[/red]")
@@ -255,7 +268,7 @@ def serve(host: str | None, port: int | None):
 @cli.command()
 @click.option("--limit", "-l", default=None, type=int, help="Max queries")
 def pipeline(limit: int | None):
-    """Run the full pipeline: scrape → enrich."""
+    """Run the full pipeline: scrape -> enrich."""
     console.print("[bold magenta]Running full pipeline...[/bold magenta]\n")
     
     # Import Click context to invoke sub-commands
